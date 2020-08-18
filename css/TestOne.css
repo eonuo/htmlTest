@@ -1,0 +1,17 @@
+.hreader{
+    width:30px;
+    background-color: #e3e4e5;
+    color: #e3e4e5;
+}
+
+.w{
+    margin: auto;
+    height: 30px;
+    width: 1190px;
+    text-align: center;
+    background-color: #e3e4e5;
+}
+
+*:target{
+  background-color: red;
+}
