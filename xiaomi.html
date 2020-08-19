@@ -38,6 +38,24 @@
         }
 
 
+        @font-face {
+            font-family: 'iconfont';  /* project id 2016217 */
+            src: url('//at.alicdn.com/t/font_2016217_dmg13n037iw.eot');
+            src: url('//at.alicdn.com/t/font_2016217_dmg13n037iw.eot?#iefix') format('embedded-opentype'),
+            url('//at.alicdn.com/t/font_2016217_dmg13n037iw.woff2') format('woff2'),
+            url('//at.alicdn.com/t/font_2016217_dmg13n037iw.woff') format('woff'),
+            url('//at.alicdn.com/t/font_2016217_dmg13n037iw.ttf') format('truetype'),
+            url('//at.alicdn.com/t/font_2016217_dmg13n037iw.svg#iconfont') format('svg');
+        }
+
+        .iconfont {
+            font-family: "iconfont" !important;
+            font-style: normal;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+
         .slogan {
             height: 120px;
             width: 100%;
@@ -105,10 +123,23 @@
             color: #ff6700;
         }
 
-        .gwc-font:before{
-            content: "\E60D";
-            margin-right: 5px;
+        .gwc-font{
+            margin: auto 10px;
         }
+
+        .gwc-font:before{
+            font-family: "iconfont" !important;
+            font-style: normal;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            content: "\e636";
+            font-size: 18px;
+            margin-right: 5px;
+            padding-left: 5px;
+            vertical-align: middle;
+        }
+
+
 
 
         .site-header{
@@ -198,16 +229,11 @@
             display: inline-block;
             float: right;
             line-height: 100px;
-
         }
 
 
 
-        container-search-div{
-            float: right;
-            line-height: 100px;
-            height: 100px;
-        }
+
 
         .container-search-input{
             border: 1px solid #e0e0e0;
@@ -215,9 +241,9 @@
             width: 223px;
             padding: 0px 0px 0px 14px;
             outline:none;
-
+            vertical-align: middle;
             /* transform: translateY(50%); 移动元素本身50% */
-
+            color:#b0b0b0 ;
         }
 
 
@@ -233,7 +259,10 @@
             border-left: 0px;
             background-color: #e0e0e0;
             color: #616161;
-
+            outline: none;
+            font-weight: bold;
+            font-size: 30px;
+            vertical-align: middle;
 
         }
 
@@ -286,6 +315,7 @@
             float: right;
             padding-right: 20px;
             line-height: 42px;
+            font-size: 28px;
         }
 
     </style>
@@ -320,7 +350,7 @@
 
          <div class="header-topbar-right">
              <div class="header-topbar-gwc">
-                 <a href="#"><span class="gwc-font">购物车</span> <span>(123)</span></a>
+                 <a href="#"><span class="gwc-font iconfont">购物车</span><span>(123)</span></a>
              </div>
 
              <div class="header-topbar-login">
@@ -353,7 +383,7 @@
                 </ul>
             </div>
             <div class="container-search" >
-                <input class="container-search-input" value="123123"><input class="container-search-btn" type="button" value="Search">
+                <input class="container-search-input" placeholder="红米手机X5" ><input class="container-search-btn iconfont" type="button" value="&#xe63c;">
             </div>
 
         </div>
@@ -361,16 +391,16 @@
     <div class="site-category">
         <div class="site-category-menu">
             <ul>
-                <li><a href="">手机 电话卡</a><span class="jt">></span></li>
-                <li><a href="">电视 盒子</a><span class="jt">></span></li>
-                <li><a href="">笔记本 显示器</a><span class="jt">></span></li>
-                <li><a href="">家电 插线板</a><span class="jt">></span></li>
-                <li><a href="">出行 穿戴</a><span class="jt">></span></li>
-                <li><a href="">智能 路由器</a><span class="jt">></span></li>
-                <li><a href="">电源 配件</a><span class="jt">></span></li>
-                <li><a href="">健康 儿童</a><span class="jt">></span></li>
-                <li><a href="">耳机 音响</a><span class="jt">></span></li>
-                <li><a href="">生活 箱包</a><span class="jt">></span></li>
+                <li><a href="">手机 电话卡</a><span class="iconfont jt">&#xe658;</span></li>
+                <li><a href="">电视 盒子</a><span class="iconfont jt">&#xe658;</span></li>
+                <li><a href="">笔记本 显示器</a><span class="iconfont jt">&#xe658;</span></li>
+                <li><a href="">家电 插线板</a><span class="iconfont jt">&#xe658;</span></li>
+                <li><a href="">出行 穿戴</a><span class="iconfont jt">&#xe658;</span></li>
+                <li><a href="">智能 路由器</a><span class="iconfont jt">&#xe658;</span></li>
+                <li><a href="">电源 配件</a><span class="iconfont jt">&#xe658;</span></li>
+                <li><a href="">健康 儿童</a><span class="iconfont jt">&#xe658;</span></li>
+                <li><a href="">耳机 音响</a><span class="iconfont jt">&#xe658;</span></li>
+                <li><a href="">生活 箱包</a><span class="iconfont jt">&#xe658;</span></li>
             </ul>
         </div>
     </div>
