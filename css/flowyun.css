@@ -1,0 +1,92 @@
+ul,li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+.header{
+    height:80px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 2px 6px #e8e8e8;
+}
+
+nav{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo{
+    float: left;
+}
+.nav-right{
+    float: right;
+    height: 80px;
+}
+
+.menu {
+    float: left;
+}
+
+.menu ul li{
+    color: #383838;
+    line-height: 80px;
+    font-size: 16px;
+    float: left;
+    padding: 0 20px;
+}
+
+.menu ul li a:hover {
+    border-bottom: 2px solid #1ba5fa;
+
+}
+.menu ul li a{
+    display: inline-block;
+    color: #383838;
+}
+
+.login{
+    float: right;
+    height: 80px;
+    position: relative;
+    line-height: 80px;
+}
+
+.btn{
+    display: inline-block;
+    margin-left: 10px;
+    width: 90px;
+    height: 32px;
+    border: 1px solid #e8e8e8;
+    text-align: center;
+    color:#383838 ;
+    line-height: 32px;
+    border-radius: 4px;
+
+}
+
+.login-sy{
+    border: 1px solid #1bd3fa;
+    color: #eee;
+    background: linear-gradient(90deg, #1bd3fa, #1ba5fa);;
+}
+
+
+.footer{
+    padding-top: 1px;
+    width: 100%;
+    height: 500px;
+    background: #0a223c;
+}
+.w{
+    width: 1200px;
+    margin: 80px auto;
+}
+.whjj{
+    border: 1px solid  #1ba5fa;
+    height: 257px;
+    width: 490px;
+}
